@@ -50,7 +50,7 @@ const handlePizzaSubmit = event => {
     return;
   }
 
-  const formData = { pizzaName, createdBy, size, toppings };  
+  const formData = { pizzaName, createdBy, size, toppings };
 
   fetch('/api/pizzas', {
     method: 'POST',
